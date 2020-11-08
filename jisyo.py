@@ -1,5 +1,5 @@
 # 画像用ハッシュ
-items_imges = {
+items_imge = {
     "剣" : "http://paiza.jp/learning/images/sword.png",
     "盾" : "http://paiza.jp/learning/images/shield.png",
     "回復薬" : "http://paiza.jp/learning/images/potion.png",
@@ -12,5 +12,5 @@ item_cnt = int(input())
 # 標準入力にあるアイテムを出力する
 while item_cnt > 0:
   item = input()
-  print("<img src = '" + items_imges[item] + "'>")
+  print("<img src = '" + items_imge[item] + "'>")
   item_cnt = item_cnt - 1
