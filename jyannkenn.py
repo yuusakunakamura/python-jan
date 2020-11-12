@@ -3,7 +3,7 @@ import random
 #ゲームクラス   
 class Game:
     
-    hands = { 0: "グー", 1:"チョキ", 2:"パー" }
+    hand = { 0: "グー", 1:"チョキ", 2:"パー" }
     decision = { 0:"引き分け", 1:"負け", 2:"勝ち"}
 
 #ゲーム開始クラス
@@ -21,8 +21,8 @@ class GameStart:
             com = random.randint(0,2)
 
             #自分と相手の出した手を出力
-            print("あなたは" + Game.hands[player] + "をだしました")
-            print("あいては" + Game.hands[com] + "をだしました")
+            print("あなたは" + Game.hand[player] + "をだしました")
+            print("あいては" + Game.hand[com] + "をだしました")
 
             #勝負の判定
             decision = (self.player - com + 3) % 3
