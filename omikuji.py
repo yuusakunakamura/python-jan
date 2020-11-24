@@ -7,10 +7,10 @@ lin = input().rstrip()
 # 今回は自力で全部書いてみよう！
 
 # カンマで分割して、リストに代入
-omikuji = lin.split(",")
+omikuj = lin.split(",")
 # リストの要素数を変数に代入
-num = len(omikuji)
+num = len(omikuj)
 # リストの中身を出力
-print(omikuji)
+print(omikuj)
 # ランダムに選んだリストの要素を出力
-print(omikuji[random.randrange(num)])
+print(omikuj[random.randrange(num)])
