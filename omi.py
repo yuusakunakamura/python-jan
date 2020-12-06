@@ -1,11 +1,11 @@
 
 import random
-lin = ["当たり", "ハズレ", "まあまあ"]
+line = ["当たり", "ハズレ", "まあまあ"]
 #ランダムの範囲を調べる
-nume = len(lin)
-print(lin)
+nume = len(line)
+print(line)
 
 #ランダムな数を生成
 kuji = random.randrange(nume)
-print(lin[kuji])
+print(line[kuji])
 
